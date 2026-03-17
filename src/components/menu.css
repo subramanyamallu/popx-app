@@ -1,0 +1,102 @@
+.menu-icon {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.menu-box {
+  position: absolute;
+  top: 45px;
+  right: 15px;
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.menu-box p {
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+/* FULL SCREEN MODAL */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* SCROLL */
+.scroll {
+  max-height: 80vh;
+  overflow-y: auto;
+  width: 320px;
+}
+
+/* TEXT */
+.info-text {
+  font-size: 13px;
+  color: gray;
+  margin: 10px 0;
+}
+
+.info-list {
+  padding-left: 15px;
+}
+
+.link {
+  color: #1e73e8;
+}
+
+/* INPUTS */
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+}
+
+/* RADIO */
+.radio-group label {
+  display: block;
+  margin: 5px 0;
+}
+
+/* BUTTONS */
+.modal-btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cancel {
+  border: 1px solid gray;
+  padding: 8px 12px;
+  border-radius: 20px;
+}
+
+.primary {
+  background: #1e73e8;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 20px;
+}
+
+.full {
+  width: 100%;
+  margin-top: 15px;
+}
+
+/* CLOSE */
+.close {
+  float: right;
+  cursor: pointer;
+}

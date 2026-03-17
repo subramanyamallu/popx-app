@@ -1,0 +1,225 @@
+body {
+  background: #f5f5f5;
+  font-family: Arial;
+}
+
+.container {
+  width: 350px;
+  margin: 60px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  width: 100%;
+  background: linear-gradient(to right, purple, violet);
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.link {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.login-text {
+  background: linear-gradient(to right, #7b0f7b, #d66be0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.input-group {
+  margin-top: 15px;
+}
+
+.label {
+  font-size: 12px;
+  color: purple;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.img-box {
+  position: relative;
+}
+
+.profile-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.camera {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: purple;
+  color: white;
+  font-size: 12px;
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.email {
+  font-size: 14px;
+  color: #555;
+}
+
+.desc {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+.radio-group {
+  margin-top: 15px;
+}
+
+.back-bottom {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(to right, #00b09b, #96c93d);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-outline {
+  width: 100%;
+  margin-top: 12px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  background: linear-gradient(white, white) padding-box,
+              linear-gradient(to right, purple, violet) border-box;
+  color: purple;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-outline:hover {
+  background: linear-gradient(to right, purple, violet);
+  color: white;
+}
+
+/* center align */
+.login-line {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* gradient text same as button */
+.login-highlight {
+  background: linear-gradient(to right, #7b0f7b, #d66be0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+
+/* hover effect */
+.login-line:hover .login-highlight {
+  opacity: 0.7;
+}
+
+/* second button (login box) */
+.btn-secondary {
+  width: 100%;
+  margin-top: 12px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(to right, #7b0f7b, #d66be0);
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* hover effect */
+.btn-secondary:hover {
+  opacity: 0.85;
+  transform: scale(1.02);
+}
+
+.login-pill {
+  margin-top: 15px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #7b0f7b, #d66be0);
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* hover effect */
+.login-pill:hover {
+  opacity: 0.85;
+  transform: scale(1.02);
+}
+
+.login-pill {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.container {
+  position: relative; /* VERY IMPORTANT for dots */
+}
+
+.profile {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.img-box {
+  position: relative;
+}
+
+.camera {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: purple;
+  color: white;
+  border-radius: 50%;
+  padding: 4px;
+  font-size: 12px;
+}
+
+.back-bottom {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background: linear-gradient(to right, teal, green);
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
